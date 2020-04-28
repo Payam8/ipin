@@ -1,0 +1,25 @@
+// variables 
+$primary: #595478;
+$secondary: #FF9E1B;
+$info: #00677F;
+// variables end
+// fonts
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("../fonts/IRANSansWeb.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IRANSansWebBold";
+  src: url("../fonts/IRANSansWebBold.woff2") format("woff2");
+  font-weight: bold;
+}
+* {
+  font-family: "IRANSansWeb";
+  text-align: right;
+}
+// fonts end
+@import 'bootstrap.scss';
+
